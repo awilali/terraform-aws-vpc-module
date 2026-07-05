@@ -42,7 +42,7 @@ resource "aws_nat_gateway" "nat_az1" {
   ]
 
   tags = {
-    Name        = "${var.project_name}-nat-az1"
+    Name        = "${var.project_name}-nat-gateway-az1"
     Environment = var.environment
   }
 }
@@ -58,7 +58,7 @@ resource "aws_nat_gateway" "nat_az2" {
   ]
 
   tags = {
-    Name        = "${var.project_name}-nat-Gateway-az2"
+    Name        = "${var.project_name}-nat-gateway-az2"
     Environment = var.environment
   }
 }
