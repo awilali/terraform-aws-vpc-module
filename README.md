@@ -65,6 +65,7 @@ modules/vpc/
 └── outputs.tf
 
 This module is intended to be used as the networking foundation for AWS infrastructure such as Application Load Balancers, Auto Scaling Groups, EC2 instances, RDS databases, and other services deployed within a secure multi-tier architecture.
+```
 
 ## 🔗 Connect
 
